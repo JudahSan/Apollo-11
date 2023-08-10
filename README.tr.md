@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 **Türkçe**,
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,9 +66,8 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
-Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Yönetim Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden bu repoda, [Luminary 099][5]'de ve [Comanche 055][6]'da tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
+Orijinal Apollo 11 Yönlendirme Bilgisayarı'nın (AGC) Komuta Modülü (Comanche055) ve Ay Modülü (Luminary099)'nün kaynak kodu. [Virtual AGC][3] ve [MIT Museum][4] çalışanları tarafından sayısallaştırılmıştır. Amaç orijinal Apollo 11 kaynak kodunu içeren bir repo oluşturmak. Bu yüzden, bu repodaki transkriptler ile orijinal [Luminary 099][5] ve [Comanche 055][6] kaynak taramaları arasında tespit edilen hatalarla ilgili veya benim kaçırdığım herhangi bir dosya hakkında yollanacak pull request'lere açığız.
 
 ## Katkıda Bulunma
 
@@ -69,8 +82,8 @@ Eğer orijinal kaynak kodu derlemek isterseniz, [Virtual AGC][8] projesine bakab
 &nbsp;          | &nbsp;
 :-------------- | :-----
 Lisans          | Kamu malı - ABD hükümeti çalışması
-Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Yönetim Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
-Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LYM99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
+Comanche055     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Komuta Modülü (CM) olan Colossus 2A'nın kaynak kodunun bir parçası.<br>`AGC programı Comanche'nin NASA tarafından yapılan 055 sayılı birleştirme revizyonu`<br>`2021113-051. 10:28 NİS. 1, 1969`
+Luminary099     | Apollo Yönlendirme Bilgisayarı (AGC)'nin Ay Modülü (LM) olan Luminary 1A'in kaynak kodunun bir parçası.<br>`AGC Programı LMY99'un NASA tarafından yapılan 001 sayılı birleştirme revizyonu`<br>`2021112-061. 16:27 TEM. 14, 1969`
 Derleyici       | yaYUL
 İletişim        | Ron Burkey <info@sandroid.org>
 Internet Sitesi | www.ibiblio.org/apollo
@@ -86,7 +99,7 @@ Rapor `R-577`'de belirtildiği gibi, bu program CM için kullanım amacıyla haz
 
 Gönderen             | Mevkisi | Tarih
 :------------------- | :------ | :----
-Margaret H. Hamilton | Colossus Programı Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
+Margaret H. Hamilton | Colossus Programlama Lideri<br>Apollo Yönlendirme ve Navigasyon | 28 Mar 69
 
 Onaylayan         | Mevkisi | Tarih
 :---------------- | :------ | :----

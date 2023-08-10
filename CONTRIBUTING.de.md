@@ -1,38 +1,56 @@
 # Contributing
 
 🎌
+[Čeština][CZ],
+[Dansk][DA],
 **Deutsch**,
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
+[Kurdi][KU],
+[Lietuvių][LT],
 [Nederlands][NL],
+[Norsk][NO],
+[Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[CZ]:CONTRIBUTING.cz.md
+[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
+[JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
 [NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
 
-Der Quellcode in diesem repository wurde manuell digitalisiert, also sind jegliche schriftliche Fehler und Ungereimtheiten aus versehen hinzugefügt worden. Der Code soll Modifiziert werden so dass er mit den Vorlagen übereinstimmt.
+Der Quellcode in diesem Repository wurde manuell digitalisiert, also sind jegliche Tippfehler und Diskrepanzen unabsichtlich eingeführt worden. Der Code soll so angepasst werden, dass er mit den folgenden eingescannten Ausdrucken übereinstimmt:
 
 - [AGC printouts for Comanche][8]
 - [AGC printouts for Luminary][9]
 
 ## Nützliche Erweiterungen
 
-GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für ihren Code Editor nicht, dennoch gibt es AGC Erweiterungen die Syntax highlighting für die folgenden Editors zur Verfügung stellen:
+GitHub verfügt über eine integrierte Syntax-Unterstützung für die AGC Assembly Sprache. Das gilt leider nicht für deinen Code Editor. Für die folgenden Editoren gibt es aber AGC-Spracherweiterungen, die Syntaxhervorhebung hinzufügen:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]
@@ -45,7 +63,7 @@ GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für
 - [Visual Studio Code][VisualStudioCode]†
 - [jEdit][jEdit]
 
-† Unterstützen Automatisches Formatieren
+† Unterstützt automatische Formatierung
 
 [Atom]:https://github.com/Alhadis/language-agc
 [CodeBlocks]:https://github.com/virtualagc/virtualagc/tree/master/Contributed/SyntaxHighlight/CodeBlocks
@@ -60,30 +78,49 @@ GitHub hat eine Integrierte Unterstützung für AGC assembly. Dasselbe gilt für
 
 ## Formatierung
 
-**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen dass sie die Korrekte Formatierung einhalten.
+**Anmerkung:** GitHub und die oben erwähnten Erweiterungen werden automatisch sicherstellen, dass du die korrekte Formatierung einhältst.
 
-- benutze tab indentation
-- benutze tab width von 8
-- entferne nachlaufende leerstellen
+- Verwende Tab-Einrückung
+- Verwende Tab-Breite von 8
+- Entferne Leerzeichen am Ende einer Zeile
 
-## Was sol ich überprüfen  ?
+## Was soll ich überprüfen?
 
-Jegliche Ungereimtheiten zwischen den scans und den Code in die repository, einschließlich:
+Alle Diskrepanzen zwischen den Scans und dem Quelltext in diesem Repository.
 
 ### Kommentare
 
-- Kommentare in dem Abgeschriebenen Code müssen denen in den scans gleichen
-  - Das könnte extra einen sprachlichen Fehler oder das entfernen/hinzufügen eines ganzen Kommentars bedeuten
+Kommentare in dem transkribierten Quellcode **MÜSSEN** denen in den Scans **genau** entsprechen.
 
-### Zeilenumbruch
+Häufige Fehler, auf die du dich unter anderem beim Korrekturlesen achten solltest sind folgende (nicht abschließend):
 
-- Zeilenumbruch *mit* `R0000` in Spalte 1 sollte genau mit den scans übereinstimmen
-- Zeilenumbruch *mit**__out__* `R0000` in Spalte 1 sollte nur 1 bis zwei Leerzeilen nacheinander haben
-  - Wenn dort mher als 2 leere Zeilenumbrüche sind sollen diese entfernt werden
-    - Zeilen mit `R0000` in Spalte 1 zählen nicht dazu
-  - In den Quell Bildern, Diese wurden verursacht durch eine nicht gedruckte stelle in in Spalte 8. A 2 dort hat eine doppelte Leerstelle (einezilne Leerzeile) und A 3 hat eine dreifache Leerstelle (doppelte Leerzeile). Werte 4-8 wurden definiert aber nie benutzt. Mehr hier zu in [#159][7]
+#### Typographische Fehler
 
-zum Beispiel das Folgende:
+An einigen Stellen haben die ursprünglichen Entwickler typographische Fehler beim Schreiben von Kommentaren gemacht. Manche von diesen wurden fälschlicherweise bei der ursprünglichen Digitalisierung korrigiert, die Digitalisierung hat jedoch auch typografische Fehler eingeführt die nicht in den Scans vorhanden sind.
+
+Wenn die digitalisierten Kommentare zum Beispiel `SPACECRAFT` enthielten aber `SPAECRAFT` in den Scans stand, dann **MUSS** die Digitalisierung zu `SPAECRAFT` korrigiert werden (fehlendes `C`).
+
+Gleichermaßen gilt, dass wenn ein Wort einen Tippfehler in der Digitalisierung aufweist aber in den Scans korrekt geschrieben wurde der Tippfehler korrigiert werden **MUSS**.
+
+#### Leerzeichen
+
+Leerzeichen zwischen zwei Zeichen in Kommentaren **SOLLTEN** den Scans angeglichen werden. In den meisten Fällen (siehe die Diskussion in [#316][10]) sind es:
+
+- Einzelne Leerzeichen für neue Wörter.
+- Doppelte Leerzeichen für neue Sätze.
+- Dreifache Leerzeichen für Einrückungen.
+
+Nicht alle Seiten in den Scans befolgen diese Verallgemeinerung, wenn es in den Scans nur ein einzelnes Leerzeichen gibt statt einem doppelten Leerzeichen, verwende ein einzelnes Leerzeichen.
+
+### Zeilenumbrüche
+
+- Zeilenumbrüche *mit* `R0000` in Spalte 1 sollten genau mit den Scans übereinstimmen
+- Zeilenumbrüche *__ohne__* `R0000` in Spalte 1 sollten nur 1 bis 2 Leerzeilen hintereinander haben
+  - Wenn es mehr als 2 Leerzeilen gibt, entferne die zusätzlichen Zeilenumbrüche.
+    - Zeilen mit `R0000` in Spalte 1 werden dabei nicht dazugezählt.
+  - In den Originalbildern wurden diese durch eine nicht gedruckte Ziffer in Spalte 8 verursacht. Eine 2 an dieser Stelle erzwang ein doppeltes Leerzeichen (einzelne Leerzeile) und eine 3 erzwang ein dreifaches Leerzeichen (doppelte Leerzeile). Die Werte zwischen 4 und 8 waren definiert, wurden aber nie verwendet. Mehr dazu in [#159][7]
+
+Zum Beispiel, das folgende:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -94,7 +131,7 @@ R0820
  0821   LAMPTEST  CS  IMODES33
 ```
 
-sollte werden:
+Sollte werden zu:
 
 ```plain
 R0819   SUBROUTINE TO SKIP...
@@ -104,9 +141,9 @@ R0820
  0820   LAMPTEST  CS  IMODES33
 ```
 
-## Hinweis
+## Anmerkung
 
-Bevor sie eine PR starten, bitte überprüfen sie ob die Veränderungen mit den Scans über einstimmen!
+Bevor du einen PR erstellst, stelle bitte sicher, dass deine Änderungen mit den Scans übereinstimmen!
 
 [0]:https://github.com/chrislgarry/Apollo-11/pull/new/master
 [1]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
@@ -116,5 +153,3 @@ Bevor sie eine PR starten, bitte überprüfen sie ob die Veränderungen mit den 
 [8]:http://www.ibiblio.org/apollo/ScansForConversion/Comanche055/
 [9]:http://www.ibiblio.org/apollo/ScansForConversion/Luminary099/
 [10]:https://github.com/chrislgarry/Apollo-11/pull/316#pullrequestreview-102892741
-
-

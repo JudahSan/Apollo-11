@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 **Català**,
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,7 +66,8 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
+[ZH_CN]:README.zh_cn.md
+[ZH_TW]:README.zh_tw.md
 
 Codi font original del Mòdul de Comandament (Comanche055) i del Mòdul Lunar (Comanche055) de l'ordinador de navegació de l'Apollo 11 (AGC, per les seves sigles en anglès). Digitalitzat per la gent de [Virtual AGC][3] i [MIT Museum][4]. L'objectiu és esdevenir un repositori del codi font original de l'Apollo 11. Per això els *pull requests* són benvinguts davant de qualsevol problema que s'identifiqui entre les transcripcions d'aquests repositori i les còpies originals del codi font de [Luminary 099][5] i [Comanche 055][6], així com qualsevol fitxer que m'hagi pogut deixar.
 
@@ -70,8 +85,8 @@ Si esteu interessat en compilar el codi font original, vegeu [Virtual AGC][8].
 :------------- | :-----
 Copyright      | Domini públic
 Comanche055    | Part del codi font del Colossus 2A, l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) del Mòdul de Comandament (CM, per les seves sigles en anglès) de l'Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
-Luminary099    | Part del codi font del Luminary 1A, el Mòdul Lunar (LM, per les seves sigles en anlès) de l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) de l'Apollo 11.<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Part of the source code for Luminary 1A, the Lunar Module's (LM) Apollo Guidance Computer (AGC) for Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099    | Part del codi font del Luminary 1A, el Mòdul Lunar (LM, per les seves sigles en anlès) de l'Ordinador de Navegació Apollo (AGC, per les seves sigles en anglès) de l'Apollo 11.<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assemblador    | yaYUL
 Contacte       | Ron Burkey <info@sandroid.org>
 Web            | www.ibiblio.org/apollo

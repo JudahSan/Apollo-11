@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 **Tiếng Việt**,
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,7 +66,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Mã nguồn của máy tính hướng dẫn Apollo 11 (AGC) thông qua Command Module (Comanche055) và Lunar Module (Luminary099). Được số hóa bởi những người ở [Virtual AGC][3] và [Bảo tàng MIT][4]. Mục tiêu là tạo ra một kho lưu trữ mã nguồn cho Apollo 11. Do vậy, PRs là một điều bình thường cho bất kì một vấn đề được xác định giữa các bản dịch trong kho lưu trữ này và nguồn gốc quét mã cho [Luminary 099][5] và [Comanche 055][6], cũng như bất kì file nào mà chúng tôi có thể bỏ lỡ.
 
@@ -70,7 +83,7 @@ Nếu bạn quan tâm đến việc biên dịch mã nguồn, hãy kiểm tra [V
 :---------- | :-----
 Bản quyền   | Công cộng
 Comanche055 | Một phần của mã nguồn cho Colossus 2A, Command Module's (CM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 055 của AGC chương trình Comanche bởi NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099 | Một phần của mã nguồn cho Luminary 1A, Lunar Module's (LM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 001 của AGC chương trình LYM99 bởi NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099 | Một phần của mã nguồn cho Luminary 1A, Lunar Module's (LM) Apollo Guidance Computer (AGC) cho Apollo 11<br>`Tập hợp sửa đổi 001 của AGC chương trình LMY99 bởi NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler   | yaYUL
 Liên hệ     | Ron Burkey <info@sandroid.org>
 Website     | www.ibiblio.org/apollo

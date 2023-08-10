@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 **Română**,
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,7 +66,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Codul sursă original al computerului de orientare Apollo 11 (AGC) pentru modulul de comandă (Comanche055) și modulul lunar (Luminary099). Digitalizat de persoanele de la [Virtual AGC][3] și [MIT Museum][4]. Scopul este de a avea un repo pentru codul sursă original Apollo 11. Prin urmare, PR-urile sunt bine venite pentru orice problemă identificată între transcrierile din acest repository și scanările originale pentru [Luminary 099][5] și [Comanche 055][6], precum și pentru alte fișiere pe care aș fi putut să le uit.
 
@@ -70,7 +83,7 @@ Dacă sunteți interesat de compilarea codului sursă original vizitați [Virtua
 :----------- | :-----
 Copyright    | Domeniu public
 Comanche055  | Parte din codul sursă pentru Colossus 2A, modulul de comanda (CM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099  | Parte din codul sursă pentru Luminary 1A, modulul lunar (LM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099  | Parte din codul sursă pentru Luminary 1A, modulul lunar (LM) pentru computerul de orientare (AGC) pentru Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler    | yaYUL
 Contact      | Ron Burkey <info@sandroid.org>
 Website      | www.ibiblio.org/apollo

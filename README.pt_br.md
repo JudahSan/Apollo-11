@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 **Português**,
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 [မြန်မာ][MM],
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,7 +66,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 Código fonte do Computador de Orientação da Apollo 11 (AGC) para o Módulo de Comando (Comanche055) e Módulo Lunar (Luminary099). Digitalizado pelo pessoal da [Virtual AGC][3] e [Museu do MIT][4]. O objetivo é ser um repositório para o código fonte original da Apollo 11. Como tal, os PRs são bem-vindos para quaisquer problemas identificados entre as transcrições neste repositório e as verificações do código fonte original para [Luminary 099][5] e [Comanche 055][6], bem como quaisquer arquivos que eu possa ter perdido.
 
@@ -70,7 +83,7 @@ Se você estiver interessado em compilar o código-fonte original, faça o check
 :---------------- | :-----
 Direitos Autorais | Domínio público.
 Comanche055       | Parte do código-fonte do Colossus 2A, o Módulo de Comando (CM) do Computador de Orientação Apollo (AGC) para a Apollo 11<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099       | Parte do código-fonte do Luminary 1A, Módulo Lunar (LM) do Computador de Orientação Apollo (AGC) para a Apollo 11<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099       | Parte do código-fonte do Luminary 1A, Módulo Lunar (LM) do Computador de Orientação Apollo (AGC) para a Apollo 11<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler         | yaYUL
 Contato           | Ron Burkey <info@sandroid.org>
 Website           | www.ibiblio.org/apollo

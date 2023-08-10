@@ -1,29 +1,47 @@
 # Bijdragen
 
 🎌
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
+[Italiano][IT],
+[Kurdi][KU],
+[Lietuvių][LT],
 **Nederlands**,
+[Norsk][NO],
+[Polski][PL],
 [Português][PT_BR],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [العربية][AR],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:CONTRIBUTING.ar.md
+[CZ]:CONTRIBUTING.cz.md
+[DA]:CONTRIBUTING.da.md
 [DE]:CONTRIBUTING.de.md
 [EN]:CONTRIBUTING.md
 [ES]:CONTRIBUTING.es.md
 [FR]:CONTRIBUTING.fr.md
+[GR]:CONTRIBUTING.gr.md
+[IT]:CONTRIBUTING.it.md
+[JA]:CONTRIBUTING.ja.md
 [KO_KR]:CONTRIBUTING.ko_kr.md
+[KU]:CONTRIBUTING.ku.md
+[LT]:CONTRIBUTING.lt.md
+[NL]:CONTRIBUTING.nl.md
+[NO]:CONTRIBUTING.no.md
+[PL]:CONTRIBUTING.pl.md
 [PT_BR]:CONTRIBUTING.pt_br.md
 [TR]:CONTRIBUTING.tr.md
 [ZH_CN]:CONTRIBUTING.zh_cn.md
 [ZH_TW]:CONTRIBUTING.zh_tw.md
-[NL]:CONTRIBUTING.nl.md
 
 De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken. Typfouten en andere discrepanties kunnen per ongeluk zijn toegevoegd. De code zal worden aangepast om gelijk te worden gemaakt aan de gescande papieren:
 
@@ -32,7 +50,7 @@ De broncode in deze repository is handmatig gedigitalizeerd van papieren stukken
 
 ## Handige extensies
 
-Github heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
+GitHub heeft syntax ondersteuning voor de AGC assembly taal ingebouwd. Helaas heeft jouw editor dit niet, gelukkig zijn er AGC extensies die de volgende editors kunnen voorzien van syntax ondersteuning:
 
 - [Atom][Atom]†
 - [CodeBlocks][CodeBlocks]

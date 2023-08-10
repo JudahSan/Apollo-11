@@ -8,42 +8,56 @@
 🎌
 [Bahasa Indonesia][ID],
 [Català][CA],
+[Čeština][CZ],
+[Dansk][DA],
 [Deutsch][DE],
 [English][EN],
 [Español][ES],
 [Français][FR],
 [Italiano][IT],
+[Kurdi][KU],
 [Nederlands][NL],
+[Norsk][NO],
 [Polski][PL],
 [Português][PT_BR],
 [Română][RO],
 [Tiếng Việt][VI],
 [Türkçe][TR],
+[Ελληνικά][GR],
 [Русский][RU],
 [العربية][AR],
 [فارسی][FA],
 [हिंदी][HI_IN],
+[অসমীয়া][AS_IN],
 [বাংলা][BD_BN],
 **မြန်မာ**,
-[日本][JA],
+[日本語][JA],
 [正體中文][ZH_TW],
 [简体中文][ZH_CN],
 [한국어][KO_KR]
 
 [AR]:README.ar.md
+[AS_IN]:README.as_in.md
 [BD_BN]:README.bd_bn.md
 [CA]:README.ca.md
+[CZ]:README.cz.md
+[DA]:README.da.md
 [DE]:README.de.md
 [EN]:README.md
 [ES]:README.es.md
 [FA]:README.fa.md
 [FR]:README.fr.md
+[GR]:README.gr.md
 [HI_IN]:README.hi_in.md
 [ID]:README.id.md
 [IT]:README.it.md
 [JA]:README.ja.md
 [KO_KR]:README.ko_kr.md
+[KU]:README.ku.md
+[LT]:README.lt.md
 [MM]:README.mm.md
+[NL]:README.nl.md
+[NO]:README.no.md
 [PL]:README.pl.md
 [PT_BR]:README.pt_br.md
 [RO]:README.ro.md
@@ -52,7 +66,6 @@
 [VI]:README.vi.md
 [ZH_CN]:README.zh_cn.md
 [ZH_TW]:README.zh_tw.md
-[NL]:README.nl.md
 
 မူရင်း Apollo 11​​ ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC) တွင်ပါဝင်သော ကွပ်ကဲမှုအစိတ်အပိုင်း (Comanche055) နဲ့ လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (Luminary099) တို့ရဲ့ ကုဒ်။ [Virtual AGC][3] နှင့် [MIT Museum][4] အကူအညီဖြင့် ဒီဂျစ်တယ်ပုံစံသို့ ပြောင်းထားခြင်းဖြစ်သည်။​ မူရင်း Apollo 11 ကုဒ်များ သိမ်းစည်းထားသော ရီပိုတစ်ခုဖြစ်လာစေရန်ရည်ရွယ်သည်။ ဒါကြောင့် [Luminary 099][5] နဲ့ [Comanche 055][6] တို့ရဲ့ အရင်းအမြစ်စာတမ်းများနဲ့ ဒီရီပိုကြား ကွဲလွဲချက်များတွေ့ရင် Pull Request (PR) တွေဖွင့်ပေးဖို့ ကြိုဆိုပါတယ်။ ကျွန်တော် ကျန်ခဲ့တဲ့ ဖိုင်လ်လေးတွေရှိရင်လည်း ပြောပေးကြပါဉီး။
 
@@ -70,7 +83,7 @@ Pull Request မဖွင့်ခင် [CONTRIBUTING.md][7] ကိုတော
 :------------------ | :-----
 မူပိုင်ခွင့်               | မူပိုင်မဲ့ အများပိုင်
 Comanche055         | Colossus 2A ၏ ကုဒ်အစိတ်အပိုင်း၊ Apollo 11 အတွက် ကွပ်ကဲမှုအစိတ်အပိုင်း (CM) ၏ Apollo ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC)<br>`Assemble revision 055 of AGC program Comanche by NASA`<br>`2021113-051. 10:28 APR. 1, 1969`
-Luminary099         | Luminary 1A ၏ ကုဒ်အစိတ်အပိုင်း၊ Apollo 11 တွင် လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (LM) ၏ Apollo ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC)<br>`Assemble revision 001 of AGC program LYM99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
+Luminary099         | Luminary 1A ၏ ကုဒ်အစိတ်အပိုင်း၊ Apollo 11 တွင် လပေါ်တွင်ဆင်းသက်သည့် အစိတ်အပိုင်း (LM) ၏ Apollo ထိန်းချုပ်မှု ကွန်ပျူတာ (AGC)<br>`Assemble revision 001 of AGC program LMY99 by NASA`<br>`2021112-061. 16:27 JUL. 14, 1969`
 Assembler           | yaYUL
 ဆက်သွယ်ရန်           | Ron Burkey <info@sandroid.org>
 ဝဘ်ဆိုက်စာမျက်နှာ       | www.ibiblio.org/apollo
